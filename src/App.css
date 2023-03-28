@@ -8,6 +8,15 @@
     box-shadow: 2px 2px 3px red;
     cursor: pointer;
   }
+
+  .dr-name{
+    cursor: pointer;
+  }
+  .dr-name:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+  }
   
   .appointments {
     width: 100%;
