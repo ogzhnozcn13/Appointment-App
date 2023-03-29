@@ -1,6 +1,6 @@
 .doctor-img {
     transition: transform 0.5s;
-    border-radius: 1rem;
+    border-radius: 2rem;
     max-height: 250px;
   }
   .doctor-img:hover {

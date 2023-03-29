@@ -1,13 +1,16 @@
+import d1 from "../images/Haydar.jpg"
+
+
 export const doctorData = [
     {
       id: 1,
-      name: "Dr. John Valery",
+      name: "Dr. Harold Smith",
       dep: "Cardiology",
       img: "https://tejedd76pluu.merlincdn.net/resize/700x932//Programlar/Mucize-Doktor/Oyuncular/Mucize-Doktor-act-image-4d7bbb7f-0b0b-4fc7-a768-7f28f98e9e31.jpg"
     },
     {
       id: 2,
-      name: "Dr. Jasmine Carter",
+      name: "Dr. Angelina Vindy",
       dep: "Radiolgy",
       img: "https://tejedd76pluu.merlincdn.net/resize/700x932//Programlar/Mucize-Doktor/Oyuncular/Mucize-Doktor-act-image-a1bab0b4-0e3a-450c-bc92-03991d8fef46.jpg"
     },
@@ -37,7 +40,7 @@ export const doctorData = [
     },
     {
       id: 7,
-      name: "Dr. Asley Graham",
+      name: "Dr. Emily Graham",
       dep: "Pediatry",
       img: "https://tejedd76pluu.merlincdn.net/resize/700x932//Programlar/Mucize-Doktor/Oyuncular/Mucize-Doktor-914-act-image-562718c4-70f4-4ec7-bfa3-2271cc73f172.jpg"
     },

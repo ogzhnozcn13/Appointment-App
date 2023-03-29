@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <main>
             <Navbar/>
-            <h1>Web Hospital</h1>
+            <h1 className="text-center mt-2 danger">Web Hospital</h1>
             <Doctors doctors={doctors}/>
             <AppointmentList/>
         </main>
