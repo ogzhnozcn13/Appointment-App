@@ -9,17 +9,9 @@ export function AddModal({show, handleClose, drName, appointments, setAppointmen
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    setAppointments([ ...appointments, {
-      id: appointments.length+1,
-      patient: patienttName,
-      day: date,
-      consulted: false,
-      doctor: drName}
-    ])
     handleClose()
   }
 
-  console.log(appointments);
 
   return (
     <>
