@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col"
 import { AddModal } from "./AddModal"
 import { useState } from "react"
 
-const Doctors = ({doctors}) => {
+const Doctors = ({doctors, appointments, setAppointments}) => {
 
   const [show, setShow] = useState(false);
 
@@ -19,10 +19,12 @@ const Doctors = ({doctors}) => {
   }
 
   return (
-    <Container className="p-2">
-        <h3 className="display-6 mb-3" style={{color: "purple"}}>Our Doctors</h3>
 
-        <Row className="justify-content-center">
+    <>
+    <h3 className="display-9 mb-3 mt-5 text-center">Our Doctors</h3>
+
+    <Container className="p-2">
+        <Row className="">
             {doctors.map((dr) => (
                 <Col key={dr.id} xs={6} sm={6} md={4} lg={3}>
                     <img src={dr.img} alt={dr.name} className= "doctor-img img-thumbnail mb-2"
@@ -32,8 +34,17 @@ const Doctors = ({doctors}) => {
                 </Col>
             ))}
         </Row>
-        <AddModal show={show} handleClose={handleClose} doctorName={selectedDrName}/>
+
+        <AddModal
+          show={show}
+          handleClose={handleClose}
+          drName={selectedDrName}
+          appointments={appointments}
+          setAppointments={setAppointments}
+          />
     </Container>
+    </>
+
   )
 }
 
