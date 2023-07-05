@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Appointment-App/static/css/main.1a8b5ebc.css",
+    "main.js": "/Appointment-App/static/js/main.bd37d29e.js",
+    "static/media/Haydar.jpg": "/Appointment-App/static/media/Haydar.4e1a31c3a2252a7ee4e9.jpg",
+    "static/media/healthy.png": "/Appointment-App/static/media/healthy.cd99e9a16fd56496071a.png",
+    "index.html": "/Appointment-App/index.html",
+    "main.1a8b5ebc.css.map": "/Appointment-App/static/css/main.1a8b5ebc.css.map",
+    "main.bd37d29e.js.map": "/Appointment-App/static/js/main.bd37d29e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a8b5ebc.css",
+    "static/js/main.bd37d29e.js"
+  ]
+}
